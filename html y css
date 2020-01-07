@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sitio web Profesional</title>
+        <!-- ICONOS -->
+        <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        <!--SLIDER-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!--STILOS-->
+        <link rel="stylesheet"  href="css/style.css"
+    </head>
+        <body>
+            
+            <div    class        class="wrapper">
+                <!--BANNER-->
+            </div   class="BANNER-WRAPPER">
+            <header>
+                <div    class="HEADER-INNER">
+                    <a  href="index.html"   id="logo">
+                        <img src="file:///C:/Users/Asus/Desktop/sitio%20web-profesional/img/fazt_logo.png"
+
+                    </a>
+                        <nav>
+                            <a  href="#menu-icon"> 
+                                <i  class="fa fa-bars">
+                                </i>
+                            </a>
+                                <ul>
+                                    <li>
+                                        <a  href="index.html">Inicio</a>
+                                    </li>
+                                    <li>
+                                        <a  href="#Skills">Habilidades</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a  href="#portfolio">Portafolio</a> 
+                                    </li>
+                                    <li>
+                                        <a  href="#services">Servicios</a> 
+                                    </li>
+                                    <li>
+                                        <a  href="#contact">Contacto</a> 
+                                    </li>
+                                </ul>
+                        </nav>
+                </div  >
+            </header>
+            <div    class="slide-wrap">
+                <ul class="slider1">
+                    <li><img src="img/slider/slider1.jpg" alt="Arbol y silla">
+                        <li><img src="img/slider/slider2.jpg" alt="Chica libre">
+                            <li><img src="img/slider/slider3.jpg" alt="Hombre y cicla">
+
+                    </li>
+                </ul   >
+
+            </div  >
+            </div>
+            </div>
+            <!--scrips-->   
+                <script>
+            $(document).ready(function(){
+                $('.slider1').bxslider({
+                    mode:'fade',
+                });
+                $('.slider2).bxslider({
+                    mode:'fade',
+                });
+                $('.slider3').bxslider({
+                    mode:'fade',
+                });
+            });
+                </script>
+        </body>
+
+</html>
